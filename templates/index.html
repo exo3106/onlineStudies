@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+        <div class="row">
+               <div class="col-md-6">
+                <img src="{% static 'media/img/banner.jpg' %}" class="img-fluid">
+               </div>
+               <div class="col-md-6">
+                <div class="hero-text">
+                    <h1>Elevate your Learning.</h1>
+                    <h3 class="pb-2">Access interactive content and <br>collabotate in shaping our society.</h3>
+                    <button class="btn btn-flat btn-lg btn-primary-os">Hire me</button>
+                </div>
+               </div>
+                <!-- <div class="col-md-12">
+                    <div class="hero-div">
+                        
+                        <div class="hero-text">
+                            
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>You can choose from a number of coursed.</h3>
+                    <h4>Choose from 183,000 video courses with new additions published every month</h4>
+                </div>
+                <div class="col-md-12 pt-5">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link nav-link-tab" id="pills-marketing-tab" data-bs-toggle="pill" data-bs-target="#pills-marketing" type="button" role="tab" aria-controls="pills-marketing" aria-selected="true">Marketing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link nav-link-tab" id="pills-branding-tab" data-bs-toggle="pill" data-bs-target="#pills-branding" type="button" role="tab" aria-controls="pills-branding" aria-selected="false">Product Branding</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link nav-link-tab" id="pills-computer-tab" data-bs-toggle="pill" data-bs-target="#pills-computer" type="button" role="tab" aria-controls="pills-computer" aria-selected="false">Computer Programming</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link nav-link-tab" id="pills-entre-tab" data-bs-toggle="pill" data-bs-target="#pills-entre" type="button" role="tab" aria-controls="pills-entre" aria-selected="false">Entrepreneuship</button>
+                          </li>
+                      </ul>
+                      <hr class="dropdown-divider">
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-marketing" role="tabpanel" aria-labelledby="pills-marketing-tab">a</div>
+                        <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">b</div>
+                        <div class="tab-pane fade" id="pills-computer" role="tabpanel" aria-labelledby="pills-computer-tab">c</div>
+                        <div class="tab-pane fade" id="pills-entre" role="tabpanel" aria-labelledby="pills-entre-tab">d</div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5 pb-5">
+            <h3>Featured Categories</h3>
+
+        </div>
+{% endblock content %}
