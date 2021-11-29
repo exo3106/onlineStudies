@@ -43,3 +43,4 @@ class Course_Module(models.Model):
     file = models.FileField()
     course_id = models.ForeignKey(Course,on_delete=models.CASCADE)
 
+

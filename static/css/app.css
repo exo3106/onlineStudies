@@ -4,7 +4,7 @@
     border-color: #0E4F49;
 }
 .btn-secondary-os{
-    color: #000;
+    color: #fff;
     background-color: #275f88;
     border-color: #275f88;
 }
@@ -34,3 +34,6 @@
     color: #fff;
     background-color: #0E4F49;
   }
+.bg{
+  background-color: #0e4f4949;
+}
